@@ -2,6 +2,11 @@
 layout: single
 title: Careers
 permalink: /careers/
+author_profile: true
+read_time: false
+comments: false
+share: false
+related: false
 ---
 
 * Jinhyuck Kim
@@ -53,7 +58,7 @@ permalink: /careers/
       * Improve wear-leveling algortithm (10% improvement)
     * Maintain BML(Block Management Layer) and LLD (Low-Level Device layer)
   * Develop UFD(USB Flash memory Drive) UA1
-    * Study existing FTL technologies 
+    * Study existing FTL technologies
     * Design architectures for next generation storage device
 
 
@@ -94,7 +99,7 @@ permalink: /careers/
   * Spring Framework - Spring Boot, Spring Security, Spring Session, Spring Cloud
   * Spock Test Framework
   * jQuery
-* Markup 
+* Markup
    * HTML/CSS/LESS
 * Databases
   * MySQL
