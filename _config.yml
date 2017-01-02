@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Like Gin"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Jinhyuck Kim"
+description              : "뭣도 모르고 재미있을 것 같아 시작한 좌충우돌 스타트업 경험을 >바탕으로 한 개발, 관리 관련 이야기를 합니다."
+url                      : "http://bluerivers.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "bluerivers/bluerivers.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -64,9 +64,12 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : Jinhyuck Kim # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.facebook.com/jinhyuck.kim.7"
+    - "https://www.linkedin.com/in/jinhyuck-kim-2a8b50a8"
+    - "https://github.com/bluerivers"
 
 # Analytics
 analytics:
@@ -77,24 +80,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Jinhyuck Kim"
+  avatar           : "/assets/images/avatar.jpeg"
+  bio              : ""
+  location         : "Seoul, Korea"
+  email            : "bluerivers.starkid@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/jinhyuck.kim.7"
   foursquare       :
-  github           :
+  github           : "https://github.com/bluerivers"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/jinhyuck-kim-2a8b50a8"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -135,8 +138,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
