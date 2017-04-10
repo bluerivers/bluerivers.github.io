@@ -13,12 +13,18 @@ related: false
 * Software Engineer
 * Email: [bluerivers.starkid@gmail.com](mailto:bluerivers.starkid@gmail.com)
 
+<!--
+## Interest
+
+Agile, Software Craftsmanship, Large-scale System
+
+-->
 
 ## Work Experience
 
 ### IDINCU, Seoul, Korea
 * Position
-  * Senior Engineer - 2016.04 ~
+  * Senior Engineer - 2016.04 ~ 2017.03
   * CTO - 2012.04 ~ 2016.03
   * iOS Developer - 2011.07 ~ 2012.03
 * Achievements
@@ -90,15 +96,20 @@ related: false
 * Programming Languages
   * Java
   * Javascript
-  * Groovy
+  * Groovy (Elementary)
   * C++
   * C
+  * Python (Elementary)
   * ML
   * Objective-C
-* Framework or Library
-  * Spring Framework - Spring Boot, Spring Security, Spring Session, Spring Cloud
-  * Spock Test Framework
-  * jQuery
+* Framework / Library
+  * Java
+      * Spring Framework - Spring Boot, Spring Security, Spring Session, Spring Cloud
+      * JUnit Spock Test Framework
+  * Javascript
+      * jQuery
+      * node.js
+      * express
 * Markup
    * HTML/CSS/LESS
 * Databases
@@ -109,8 +120,8 @@ related: false
 
 
 ## Languages
-* Korean (Native or bilingual proficiency)
-* English (Elementary proficiency)
+* Korean (Native)
+* English (Elementary)
 
 
 ## Publications
