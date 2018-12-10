@@ -13,16 +13,51 @@ related: false
 * Software Engineer
 * Email: [bluerivers.starkid@gmail.com](mailto:bluerivers.starkid@gmail.com)
 
-<!--
+
 ## Interest
 
-Agile, Software Craftsmanship, Large-scale System
+* Organization - Leadership, Culture, Performance Management, Communication
+* Software Developer - Software Craftsmanship, Large-scale System, Agile, Professionalism, DevOps
+* Private - Major League Baseball, Fitness, Fashion, Wine, Whisky
 
--->
 
 ## Work Experience
 
-### IDINCU, Seoul, Korea
+### FingerPlus, Seoul, Korea
+* Position
+  * Senior Engineer - 2017.04 ~ 2018.01
+  * Lead Engineer - 2018.02 ~
+* Achievements
+  * Migrate EC2 and other component into VPC in AWS and setup VPN server/client to enhance service security
+    * AWS VPC, AWS EC2, Network, OpenVPN
+  * Design and implement [Player API v1](https://developer.video-tag.kr/player/overview.html)
+    * Replace old Player API beta to avoid exposing API key externally
+    * Issue page view token through server-to-server communication to use for client to request API server
+    * Define new player user log format and modify Player API backend to send new log stream to make log analysis deepen
+    * AWS API Gateway, AWS Lambda, AWS DynamoDB, [Serverless Framework](https://serverless.com/), JWT(Json Web Token)
+    * Heading to construct [reactive system](https://www.reactivemanifesto.org/)
+  * Change deployment from VM to Docker
+    * AWS ECS, Docker
+  * Design and implement [Advertiser API v1](https://developer.video-tag.kr/advertiser/overview.html)
+    * Integrate another AD system by integrating API
+    * Implement Bulk Request API
+    * HapiJS, OAuth 2.0 (Client Credentials), JWT
+  * Restructuring legacy system
+    * Overcome slower developing speed, frequent unintended errors due to monolithic and tightly-coupled legacy system
+    * De-couple video meta, advertisement, and statisitics system respectively
+    * De-couple system to use not SMR clip, also general-purpose video clip (In progress)
+    * Get motivation from optimistic concurrency, state management, modification log in the [Kubernetes](https://kubernetes.io)
+  * Substitute AWS Lambda into server in Player API backend (In progress)
+    * Overcome the limitations with AWS Lambda - unknown error, and slow scaling speed, and hard to customize configuration
+    * Achieve both 100 TPS and ~100ms response time per 1 application in peak time
+  * Etc
+    * Define code, api, and message convention for engineers
+    * Introduce jira and confluence into company
+    * Organize monthly study sessions in engineering group
+      * Make engineer [blog](https://fingerplus.github.io/) using Jekyll
+
+
+### Opensurvey(ex. IDINCU), Seoul, Korea
 * Position
   * Senior Engineer - 2016.04 ~ 2017.03
   * CTO - 2012.04 ~ 2016.03
@@ -37,7 +72,7 @@ Agile, Software Craftsmanship, Large-scale System
   * Common Questionnaire Modules
     * Improve performance function to store responses asynchronously using RabbitMQ
     * Implement _Question Group Rotation_ feature and _External Questionnaire Reference_ feature and so on
-    * Re-design front/backend module (WIP)
+    * Re-design front/backend module
     * Spring, Struts2, MyBatis, Javascript, jQuery, RabbitMQ, Node.js, React, Kafka
   * OVEY
     * Develop and maintain OVEY 1.0 iOS Application
@@ -61,7 +96,7 @@ Agile, Software Craftsmanship, Large-scale System
 * Achievements
   * Develop and maintain NAND Flash Firmware (FTL, Flash Translation Layer) - applied to embedded storage, especially, OneNAND and Flex-OneNAND
     * STL (Sector Translation Layer) from 1.1 to 1.2
-      * Improve wear-leveling algortithm (10% improvement)
+      * Improve wear-leveling algortithm (10% improvement) - count/store wearing(erase) count per block and calculate a minimum erase count block to use next block to use
     * Maintain BML(Block Management Layer) and LLD (Low-Level Device layer)
   * Develop UFD(USB Flash memory Drive) UA1
     * Study existing FTL technologies
@@ -85,6 +120,7 @@ Agile, Software Craftsmanship, Large-scale System
 * Awards
   * Samsung Electronics Scholarship, Samsung Electronics - 2007.03
 
+
 ### Bachelor's degree, Computer Science and Engineering, Seoul National University (2002 - 2006)
 * Publication
   * Implementation of GTP(Game Transport Procotol) - 2006.02
@@ -96,24 +132,31 @@ Agile, Software Craftsmanship, Large-scale System
 * Programming Languages
   * Java
   * Javascript
+  * C/C++
   * Groovy (Elementary)
-  * C++
-  * C
   * Python (Elementary)
-  * ML
   * Objective-C
+  * nML
+* Deployment
+  * Docker
+  * AWS ECS
+  * Kubernetes (in Study)
 * Framework / Library
   * Java
-      * Spring Framework - Spring Boot, Spring Security, Spring Session, Spring Cloud
-      * JUnit Spock Test Framework
-  * Javascript
+    * Spring Framework - Spring Boot, Spring Security, Spring Session, Spring Cloud
+    * Test Framework - JUnit, Spock, and so on
+  * JS (Javascript)
+    * Front
       * jQuery
-      * node.js
-      * express
-* Markup
-   * HTML/CSS/LESS
+      * React (Elementary)
+    * NodeJS
+      * ExpressJS
+      * HapiJS
+    * Test framework - mocha, chai, jest, and so on
+* Markup - HTML/CSS/LESS/SCSS
 * Databases
   * MySQL
+  * DynamoDB in AWS
 * Embedded System
   * Trace32
   * ARM architecture
