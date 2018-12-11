@@ -17,8 +17,8 @@ related: false
 ## Interest
 
 * Organization - Leadership, Culture, Performance Management, Communication
-* Software Developer - Software Craftsmanship, Large-scale System, Agile, Professionalism, DevOps
-* Private - Major League Baseball, Fitness, Fashion, Wine, Whisky
+* Software Developer - Software Craftsmanship, Agile, Professionalism, DevOps, Large-scale system, Reactive system
+* Private - Major League Baseball(including [sabermetrics](https://en.wikipedia.org/wiki/Sabermetrics)), Fitness, Fashion, Liquor
 
 
 ## Work Experience
@@ -44,16 +44,18 @@ related: false
     * HapiJS, OAuth 2.0 (Client Credentials), JWT
   * Restructuring legacy system
     * Overcome slower developing speed, frequent unintended errors due to monolithic and tightly-coupled legacy system
+    * Motivated from optimistic concurrency, state management in the [Kubernetes](https://kubernetes.io)
     * De-couple video meta, advertisement, and statisitics system respectively
-    * De-couple system to use not SMR clip, also general-purpose video clip (In progress)
-    * Get motivation from optimistic concurrency, state management, modification log in the [Kubernetes](https://kubernetes.io)
+      * Event driven - AWS SQS
+      * Detect state change as compared with latest data
+    * De-couple system to use not [SMR](http://www.smartmediarep.com) clip, also general-purpose video clip (In progress)
   * Substitute AWS Lambda into server in Player API backend (In progress)
     * Overcome the limitations with AWS Lambda - unknown error, and slow scaling speed, and hard to customize configuration
     * Achieve both 100 TPS and ~100ms response time per 1 application in peak time
   * Etc
-    * Define code, api, and message convention for engineers
+    * Define code, API, and message convention for engineers
     * Introduce jira and confluence into company
-    * Organize monthly study sessions in engineering group
+    * Organize monthly study sessions (OpenLab) in engineering group
       * Make engineer [blog](https://fingerplus.github.io/) using Jekyll
 
 
@@ -164,7 +166,7 @@ related: false
 
 ## Languages
 * Korean (Native)
-* English (Elementary)
+* English (Intermediate)
 
 
 ## Publications
