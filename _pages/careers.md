@@ -25,8 +25,8 @@ related: false
 
 ### FingerPlus, Seoul, Korea
 * Position
+  * Lead Engineer - 2018.02 ~ 2019.01
   * Senior Engineer - 2017.04 ~ 2018.01
-  * Lead Engineer - 2018.02 ~
 * Achievements
   * Migrate EC2 and other component into VPC in AWS and setup VPN server/client to enhance service security
     * AWS VPC, AWS EC2, Network, OpenVPN
@@ -51,7 +51,7 @@ related: false
     * De-couple system to use not [SMR](http://www.smartmediarep.com) clip, also general-purpose video clip (In progress)
   * Substitute AWS Lambda into server in Player API backend (In progress)
     * Overcome the limitations with AWS Lambda - unknown error, and slow scaling speed, and hard to customize configuration
-    * Achieve both 100 TPS and ~100ms response time per 1 application in peak time
+    * Achieve both 1k~ TPS and ~100ms response time per 1 application in peak time
   * Etc
     * Define code, API, and message convention for engineers
     * Introduce jira and confluence into company
@@ -109,6 +109,7 @@ related: false
 
 ### Master's degree, Computer Science and Engineering, Seoul National University (2006 - 2008)
 * Mobile Embedded System Lab.
+* GPA 4.15
 * Achievements
   * Implement NAND flash driver and block device driver
   * Implement the static analyzer of C-- (Subset of C) and that of Effective Inference
@@ -124,6 +125,7 @@ related: false
 
 
 ### Bachelor's degree, Computer Science and Engineering, Seoul National University (2002 - 2006)
+* GPA 3.71
 * Publication
   * Implementation of GTP(Game Transport Procotol) - 2006.02
 * Awards
